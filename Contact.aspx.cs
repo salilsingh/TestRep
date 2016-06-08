@@ -14,7 +14,7 @@ namespace WebApplication4
         {
             if(!IsPostBack)
             {
-                str = "inside postback new";
+                str = "inside postback newone";
             }
         }
     }
