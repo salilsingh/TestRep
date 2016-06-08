@@ -9,9 +9,13 @@ namespace WebApplication4
 {
     public partial class Contact : Page
     {
+        string str = "start";
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if(!IsPostBack)
+            {
+                str = "inside postback";
+            }
         }
     }
 }
